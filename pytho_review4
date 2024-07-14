@@ -1,0 +1,34 @@
+import random 
+
+temperatures = []
+for i in range(7)
+ randomtemp = randint(26, 41)
+ temperatures.append(randomtemp)
+ days_of_the_week=["Sunday","Monday", "tuesday","Wednesday","Thursday","Friday","saturday"]
+counter = 0
+counterofdays = 0
+for i in range(7):
+	if(temperatures[i]%2==0):
+counter = counter+
+good_days_count=good_days_count+1
+heighst_temp = 0
+if(temperatures[i]<temperatures[lowest_temp]):
+		lowest_temp=i
+highest_temp_day=days_of_the_week[highest_temp]
+lowest_temp_day= days_of_the_week[lowest_temp]
+g = 0.0
+for i in range(7):
+	g=g+temperatures[i]
+g=g/7
+above_avg =[]
+for i in range(7):
+	if(temperatures[i]>g):
+		above_avg.append(temperatures[i])
+print("The weather report")
+for i in range(7):
+	print(days_of_the_week[i],":",temperatures[i])
+print("shelly have",counter,"good days")
+print("the hot temperature is:",highest_temp,"on",highest_temp_day)
+print("the lowest temperature is:",lowest_temp,"on",lowest_temp_day)
+print("the avg temperature is:", x)
+print("the days with above avg temperature were",above_avg)
