@@ -30,5 +30,5 @@ for i in range(7):
 print("shelly have",counter,"good days")
 print("the hot temperature is:",highest_temp,"on",highest_temp_day)
 print("the lowest temperature is:",lowest_temp,"on",lowest_temp_day)
-print("the avg temperature is:", x)
+print("the avg temperature is:", j)
 print("the days with above avg temperature were",above_avg)
