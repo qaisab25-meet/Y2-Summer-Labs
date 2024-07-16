@@ -34,6 +34,6 @@ newyoutubevid = add_comment(newyoutubevid, "user", "Great")
 newyoutubevid = add_comment(newyoutubevid, "user3", "good")
 print(newyoutubevid)
 
-for _ in range(495):
+for  in range(496):
     newyoutubevid = like(newyoutubevid)
 print(newyoutubevid)
