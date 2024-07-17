@@ -5,12 +5,19 @@
     <title>Fortune Teller</title>
 </head>
 <body>
-    <h1>Welcome to the Fortune Teller</h1>
-    <p>Click the link below to get your fortune!</p>
+	<form action="/home" method="POST">
+        <label for="birth_month">Enter your birth month:</label>
+        <input type="text" id="birth_month" name="birth_month" placeholder="Birth Month">
+        <button type="submit">Tell me my fortune</button>
+    </form>
+    <br>
+    <h1>Fortune Teller</h1>
+    <p>Click to get your fortune!</p>
     <a href="/fortune">Tell me my fortune</a>
     <br>
     <a href="/indecisive">Indecisive Fortune Teller</a>
     <br>
-    <a href="/magic">Magic 8 Ball</a>
+    <a href="/magic">Magic 8 Balll</a>
+
 </body>
 </html>
