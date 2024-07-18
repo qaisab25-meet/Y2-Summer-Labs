@@ -25,18 +25,16 @@ def fortune(month):
         "Abdala is going to chase you.!"
     ]
     
-    num_letters = len(month)
-    
-    
-    if num_letters >= len(fortunes):
-        return "Your birth month is too long"
-    
-    
-    index = num_letters % len(fortunes)
-    
-    return fortunes[index]
 
+    num_letters = len(month)
+        
+    final_fortune = fortunes[9]
+    if num_letters <len(fortunes):
+       final_fortune=fortunes[num_letters-1]
+        
+    return render_template("fortune.html", fortune=final_fortune)
 if __name__ == '__main__':
     app.run(debug=True)
+
 
 
