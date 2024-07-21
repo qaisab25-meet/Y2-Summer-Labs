@@ -32,7 +32,7 @@ def fortune():
             "If you want to buy without looking at the price, you need to work without looking at the clock.",
             "The best way to predict your future is to create it.",
             "Amir is the GOAT of CS.",
-            "Abdala is going to chase you h!"
+            "Abdala is going to chase you !"
         ]
         num_letters = len(birth_month)
         final_fortune = fortunes[num_letters - 1] if num_letters <= len(fortunes) else fortunes[9]
